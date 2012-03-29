@@ -251,7 +251,7 @@ static const ngx_str_t NGX_HTTP_PUSH_STREAM_CHANNEL_DELETED = ngx_string("Channe
 #define NGX_HTTP_PUSH_STREAM_NUMBER_OF_CHANNELS_EXCEEDED    (void *) -3
 
 static ngx_str_t        NGX_HTTP_PUSH_STREAM_EMPTY = ngx_string("");
-static const ngx_str_t  NGX_HTTP_PUSH_STREAM_BACKTRACK_SEP = ngx_string(".b");
+static const ngx_str_t  NGX_HTTP_PUSH_STREAM_BACKTRACK_SEP = ngx_string("._backtrace");
 static const ngx_str_t  NGX_HTTP_PUSH_STREAM_SLASH = ngx_string("/");
 static const ngx_str_t  NGX_HTTP_PUSH_STREAM_CALLBACK = ngx_string("callback");
 
